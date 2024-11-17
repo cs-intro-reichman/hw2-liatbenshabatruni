@@ -11,7 +11,7 @@ public class Cheers {
             //runing on every letter of the input and checking if the letter needs 'an'
             for (int j = 0; j < cheerSubject.length(); j++) {
                 if (letter.indexOf(cheerSubject.charAt(j))==-1) {
-                System.out.println("Give me a " + cheerSubject.charAt(j) + ": " + cheerSubject.charAt(j) + "!");}
+                System.out.println("Give me a  " + cheerSubject.charAt(j) + ": " + cheerSubject.charAt(j) + "!");}
                 else System.out.println("Give me an " + cheerSubject.charAt(j) + ": " + cheerSubject.charAt(j) + "!");
             }
             //printing the cheers subject spell
